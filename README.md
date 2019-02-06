@@ -12,6 +12,9 @@ Restaurant review app project for Advanced front-end *Udacity* nanodegree.
 Note - For Windows systems, Python 3.x is installed as python by default. To start a Python 3.x server, you can simply enter ```python -m http.server 8000.```
 4. With your server running, visit the site: ```http://localhost:8000```, and look around for a bit to see what the current experience looks like.
 
+### Starter code by Udacity: 
+[Starter code](https://github.com/udacity/mws-restaurant-stage-1)
+
 ## Screenshots:
 
 ![Restaurant Review App](https://i.ibb.co/KypZpm9/RRAPP.png)
