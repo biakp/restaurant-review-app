@@ -18,13 +18,13 @@
 
 <body class="inside">
   <!-- Beginning header -->
-  <header role="banner">
+  <header>
     <!-- Beginning nav -->
     <nav role="navigation">
       <h1><a href="/" role="link">Restaurant Reviews</a></h1>
     </nav>
     <!-- Beginning breadcrumb -->
-    <ul id="breadcrumb" aria-label="Breadcrumb">
+    <ul id="breadcrumb" role="navigation" aria-label="Breadcrumb">
       <li><a href="/">Home</a></li>
     </ul>
     <!-- End breadcrumb -->
@@ -33,15 +33,15 @@
   <!-- End header -->
 
   <!-- Beginning main -->
-  <main id="maincontent" role="main">
+  <main id="maincontent">
     <!-- Beginning map -->
-    <section id="map-container" role="region">
+    <section id="map-container">
       <div id="map" role="application" aria-label="Restaurant Location" aria-hidden="true"></div>
     </section>
     <!-- End map -->
     <!-- Beginning restaurant -->
-    <section id="restaurant-container" role="region">
-      <h1 id="restaurant-name"></h1>
+    <section id="restaurant-container">
+      <h2 id="restaurant-name"></h2>
       <img id="restaurant-img">
       <p id="restaurant-cuisine"></p>
       <p id="restaurant-address"></p>
@@ -49,7 +49,7 @@
     </section>
     <!-- end restaurant -->
     <!-- Beginning reviews -->
-    <section id="reviews-container" role="region">
+    <section id="reviews-container">
       <ul id="reviews-list"></ul>
     </section>
     <!-- End reviews -->
@@ -57,7 +57,7 @@
   <!-- End main -->
 
   <!-- Beginning footer -->
-  <footer id="footer" role="contentinfo">
+  <footer id="footer">
     Copyright (c) 2019 <a href="/"><strong>Restaurant Reviews</strong></a> All Rights Reserved.
   </footer>
   <!-- End footer -->
