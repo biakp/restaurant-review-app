@@ -2,6 +2,7 @@ let staticCacheName = 'static-cache-v1'; // Cache version
 
 // Files to cache
 const assets = [
+    '.',
     'index.html',
     'restaurant.html',
     './css/styles.css',
@@ -53,7 +54,7 @@ self.addEventListener('activate', function (event) {
 self.addEventListener('fetch', (event) => {
     event.respondWith(
         caches.match(event.request).then((response) => {
-            return response || fetch(event.request);
+            return response || fetch(event.request)
         })
     );
 });

@@ -1,7 +1,7 @@
 {
     "short_name": "ReviewApp",
     "name": "Restaurant Review App",
-    "start_url": "index.html?launcher=true",
+    "start_url": "./index.html",
     "theme_color": "#6A5234",
     "display": "standalone",
     "background_color": "#6A5234",
